@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app__header {
+  text-align: center;
+  border-bottom: 1px dashed black;
+}
+
+.app__main {
+  flex: 1;
+}
+
+.main__input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 15rem;
+}
+
+.input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.app__footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px dashed black;
+}
